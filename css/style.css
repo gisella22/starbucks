@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+*::selection {
+    background: #006241;
+    color: #fff;
+}
+
+.header {
+    background: #006241;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+} 
+.header__logo {
+    width: 30px;
+}
+.header__container-user {
+    display: none;
+}
+.header__nav, 
+.header__user {
+    display: none;
+}
+.header__container-user-mobile i {
+    color: #fff;
+    font-size: 25px; 
+}
